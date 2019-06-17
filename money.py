@@ -6,26 +6,15 @@ if importo < 0:
 	print("Per favore, inserisca un numero positivo!")
 
 else:
-	resto = importo
+	venti = 20
+	dieci = 10
+	cinque = 5
+	uno = 1
 
-	importo / 20
-	resto % 20
+	b_venti = importo / venti
+	
 
-	importo = resto
-
-	importo / 10
-	resto % 10
-
-	resto = importo
-
-	importo / 5
-	resto % 5
-
-	importo = resto
-
-	importo / 1
-	resto % 1
-
+	
 	print(importo, resto)
 
 
