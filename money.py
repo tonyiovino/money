@@ -9,8 +9,23 @@ else:
 	resto = importo
 
 	importo / 20
-	importo % 20
+	resto % 20
 
-	print(importo)
+	importo = resto
+
+	importo / 10
+	resto % 10
+
+	resto = importo
+
+	importo / 5
+	resto % 5
+
+	importo = resto
+
+	importo / 1
+	resto % 1
+
+	print(importo, resto)
 
 
