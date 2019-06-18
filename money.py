@@ -1,6 +1,5 @@
-print("Inserisci importo: ")
-importo_str = input()
-importo = float(importo_str)
+importo_str = input("Inserisci importo: ")
+importo = int(importo_str)
 
 if importo < 0:
 	print("Per favore, inserisca un numero positivo!")
@@ -11,10 +10,14 @@ else:
 	cinque = 5
 	uno = 1
 
-	b_venti = importo / venti
+	b_venti = importo // venti
+	importo 
+
 	
 
 	
-	print(importo, resto)
+
+	
+	print(b_venti)
 
 
