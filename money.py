@@ -13,7 +13,7 @@ else:
 	b_venti = importo // venti
 	importo 
 
-	
+	#Il programma è in svolgimento...#
 
 	
 
