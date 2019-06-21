@@ -14,16 +14,16 @@ else:
 	b_venti = importo // venti
 	resto_venti = importo % venti
 	#Dieci#
-	resto_venti = importo
-	b_dieci = importo // dieci
-	resto_dieci = importo % dieci
+	resto_venti = importo_a
+	b_dieci = importo_a // dieci
+	resto_dieci = importo_a % dieci
 	#Cinque#
-	resto_dieci = importo
-	b_cinque = importo // cinque
-	resto_cinque = importo % cinque
+	resto_dieci = importo_b
+	b_cinque = importo_b // cinque
+	resto_cinque = importo_b % cinque
 	#Uno#
-	resto_cinque = importo
-	b_uno = importo // uno
-	resto_uno = importo % uno
+	resto_cinque = importo_c
+	b_uno = importo_c // uno
+	resto_uno = importo_c % uno
 	
 	print("Biglietti da 20: ", b_venti,"\n" "Biglietti da 10: ", b_dieci,"\n" "Biglietti da 5: ", b_cinque,"\n" "Biglietti da 1: ", b_uno,"\n")
